@@ -412,11 +412,74 @@
     visibility: visible;
 }
 
+/* ===================Feedbacks================== */
+.section-title {
+    text-align: center;
+}
+
+.section-parag {
+    text-align: center;
+    margin-bottom: var(--mb-3);
+}
+
+.testimonial-data,
+.testimonial-header {
+    display: flex;
+}
+
+.testimonial-container {
+    justify-content: center;
+    justify-items: center;
+}
+
+.testimonial-content {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.testimonial-data {
+    justify-content: space-between;
+    margin-bottom: var(--mb-1);
+}
+
+.testimonial-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: var(--mb-0-75);
+}
+
+.testimonial-name {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+
+.testimonial-client {
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+
+.testimonial-description {
+    margin-bottom: var(--mb-2-5);
+}
+
+.testimonial-icon-star {
+    color: #FFC700;
+}
+
+
+.testimonial-container .swiper-pagination-testimonial {
+    bottom: 0;
+}
+
+
+
 /* ================= Formulário ================= */
 
 .form-e-api {
     display: flex;
     margin-bottom: 70px;
+    margin-top: 70px;
 }
 
 .formulario {
