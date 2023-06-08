@@ -88,7 +88,7 @@ a:hover {
 
 nav {
     position: fixed;
-    z-index: 50;
+    z-index: var(--z-fixed);
     width: 100%;
 
     display: flex;
@@ -122,6 +122,10 @@ nav:hover {
         opacity: 1;
         transform: translateX(0);
     }
+}
+
+.mobile-menu {
+    margin-right: 15px;
 }
 
 .mobile-menu.active .line1 {
@@ -175,7 +179,7 @@ nav:hover {
 
 .box1 {
     margin: 100px 0px 0 6.70vw;
-    max-width: 50%;
+    width: 50%;
 }
 
 .box2 {
@@ -245,7 +249,8 @@ nav:hover {
 .astro-img {
     width: 30vw;
     height: 30vw;
-    margin: auto;
+    margin-right: 100px;
+    margin-top: 100px;
 }
 
 /* ========== Seção Bancos Autorizados ============ */
@@ -283,7 +288,7 @@ nav:hover {
 /* ================== Seção Por que nos ==================== */
 .container-nos {
     margin: 100px auto 100px auto;
-    width: 80%;
+    width: 95%;
     height: 80%;
     background-color: var(--color-neutral-10);
     border-radius: 20px;
@@ -805,7 +810,7 @@ button:disabled {
     .nav-list {
         margin-right: 0;
         position: absolute;
-        top: 8vh;
+        top: 5.5vh;
         right: 0;
         width: 50vw;
         height: 92vh;
@@ -830,12 +835,22 @@ button:disabled {
 
 /* Versão para tablets */
 @media screen and (max-width: 768px) {
+
+    nav {
+        padding: 10px;
+    }
+
     .logo-branco {
         width: 100px;
     }
 
     .box1 {
         margin-top: 90px;
+        max-width: 90%;
+    }
+
+    .astro-img {
+        margin-right: 50px;
     }
 
     .conteudo1, .conteudo2, .conteudo3 {
@@ -890,17 +905,58 @@ button:disabled {
 /* Versão mobile */
 @media screen and (max-width: 500px) {
 
+    nav {
+        height: 5.5vh;
+    }
+
     .logo-branco {
         width: 80px;
     }
 
     .box1 {
         margin-top: 80px;
-        width: 100vw;
+        width: 100%;
+    }
+
+    .titulo-home {
+        font-size: 2.50rem;
+    }
+
+    .subtitulo-home {
+        font-size: 1.50rem;
+    }
+
+    .paragrafo-home {
+        width: 80%;
+        font-size: 0.5rem;
+    }
+
+    .mais {
+        font-size: 1.3rem;
+    }
+
+    .texto1 {
+        font-size: 1rem;
+    }
+
+    .texto2 {
+        font-size: .70rem;
+    }
+
+    .typing {
+        font-size: 1.2rem;
+    }
+
+    .typed-cursor {
+        font-size: 1.1rem;
+    }
+
+    .linha2 {
+        padding-left: 5.3vw;
     }
     
     .box2 {
-        display: hidden;
+        display: none;
     }
 
     .conteudo1, .conteudo2, .conteudo3 {
@@ -913,6 +969,50 @@ button:disabled {
 
     .paragr-box {
         padding-bottom: 5px;
+    }
+
+    .title-bank {
+        font-size: 1rem;
+    }
+
+    .img-bank {
+        width: 16vw;
+    }
+
+    .imagens-bancos {
+        padding-bottom: 0;
+    }
+
+    .titulo-nos {
+        font-size: .5rem;
+    }
+
+    .paragrafo-nos {
+        font-size: .5rem;
+    }
+
+    .sub-title-box {
+        font-size: .46rem;
+    }
+
+    .paragr-box {
+        font-size: .4rem;
+    }
+
+    #icon-money {
+        width: 12vw;
+    }
+
+    #icon-avatar {
+        width: 7.5vw;
+    }
+
+    #icon-vetor {
+        width: 7vw;
+    }
+
+    .section-title-service {
+        padding-top: 0;
     }
 
     .testimonial-data, .testimonial-header {

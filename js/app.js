@@ -64,7 +64,7 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-         strings:["SEGURANÇA", "CONFORTO", "AGILIDADE"],
+         strings:["Segurança", "Inovação", "Agilidade"],
          typeSpeed:100,
          backSpeed:60,
          loop:true
