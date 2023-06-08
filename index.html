@@ -28,11 +28,14 @@
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <script defer src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
     <title>Smart Promotora</title>
 </head>
 <body>
     <!-- Navegação -->
-    <header class="cabecalho" id="home">
+    <header class="cabecalho" id="nav">
         <nav class="navegacao">
             <!-- Logo -->
             <img class="logo-branco" src="img/logobranco.png" alt="Logo Smart Promotora Branco">
@@ -43,11 +46,11 @@
                 <div class="line3"></div>
             </div>
 
-            <ul class="nav-list" id="home">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#home">Contato</a></li>
-                <li><a href="#home">Yuppie</a></li>
-                <li><a href="#home">Seja nosso parceiro</a></li>
+            <ul class="nav-list" id="nav">
+                <li><a href="#nav">Home</a></li>
+                <li><a href="#footer">Contato</a></li>
+                <li><a href="https://sistemayuppie.com.br/promotorasmart/public/auth/login" target="_blank">Yuppie</a></li>
+                <li><a href="#formula" id="sejanp">Seja nosso parceiro</a></li>
             </ul>
         </nav>
     </header>
@@ -103,7 +106,7 @@
                                     <p> + </p>
                                 </div>
                                 <div class="texto1">
-                                    <h1>Segurança</h1>
+                                    <span class="typing"></span>
                                 </div>
                             </div>
                             <div class="linha2">
@@ -154,35 +157,39 @@
         <sectio class="secao-porque-nos">
             <div class="container-nos">
                 <div class="titulo-nos">
-                    <h1>Por que nós?</h1>
+                    <h1 class="title-nos">Por que nós?</h1>
                 </div>
                 <div class="paragrafo-nos">
                     <p>Uma experiência incrível para seus clientes, resultados espetaculares para sua empresa. </p>
                 </div>
                 <div class="boxes-nos">
-                    <div class="child-box1">
-                        <img class="icon-box" id="icon-money" src="img/money.jpg" alt="">
-                        <h3 class="sub-title-box">Melhores Comissões</h3>
+                    <div class="child-cont">
+                        <div class="child-box1">
+                            <img class="icon-box" id="icon-money" src="img/money.jpg" alt="">
+                            <h3 class="sub-title-box">Melhores Comissões</h3>
+                            <p class="paragr-box">lorem, ipsson, someone, mode
+                            car, style, padding, margin, lorem, 
+                            ipsson, someone, mode
+                            car, style, padding.</p>
+                        </div>
+
+                        <div class="child-box2">
+                            <img class="icon-box" id="icon-avatar" src="img/avatar.png" alt="">
+                            <h3 class="sub-title-box">Suporte e Atendimento</h3>
                         <p class="paragr-box">lorem, ipsson, someone, mode
                             car, style, padding, margin, lorem, 
                             ipsson, someone, mode
                             car, style, padding.</p>
-                    </div>
-                    <div class="child-box2">
-                        <img class="icon-box" id="icon-avatar" src="img/avatar.png" alt="">
-                        <h3 class="sub-title-box">Suporte e Atendimento</h3>
-                        <p class="paragr-box">lorem, ipsson, someone, mode
+                        </div>
+
+                        <div class="child-box3">
+                            <img class="icon-box" id="icon-vetor" src="img/vetor.png" alt="">
+                            <h3 class="sub-title-box">Resultados Significativos</h3>
+                            <p class="paragr-box">lorem, ipsson, someone, mode
                             car, style, padding, margin, lorem, 
                             ipsson, someone, mode
                             car, style, padding.</p>
-                    </div>
-                    <div class="child-box3">
-                        <img class="icon-box" id="icon-vetor" src="img/vetor.png" alt="">
-                        <h3 class="sub-title-box">Resultados Significativos</h3>
-                        <p class="paragr-box">lorem, ipsson, someone, mode
-                            car, style, padding, margin, lorem, 
-                            ipsson, someone, mode
-                            car, style, padding.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -381,7 +388,7 @@
 
                                     <div>
                                         <h3 class="testimonial-name">Julia Lima</h3>
-                                        <span class="testimonial-client">Cliente</span>
+                                        <p class="testimonial-client">Cliente</p>
                                     </div>
                                 </div>
                             <div>
@@ -403,7 +410,7 @@
 
                                     <div>
                                         <h3 class="testimonial-name">Mario José</h3>
-                                        <span class="testimonial-client">Cliente</span>
+                                        <p class="testimonial-client">Cliente</p>
                                     </div>
                                 </div>
                             <div>
@@ -425,7 +432,7 @@
 
                                     <div>
                                         <h3 class="testimonial-name">Fernanda alves</h3>
-                                        <span class="testimonial-client">Cliente</span>
+                                        <p class="testimonial-client">Cliente</p>
                                     </div>
                                 </div>
                             <div>
@@ -447,7 +454,7 @@
 
                                     <div>
                                         <h3 class="testimonial-name">Adriana Farias</h3>
-                                        <span class="testimonial-client">Cliente</span>
+                                        <p class="testimonial-client">Cliente</p>
                                     </div>
                                 </div>
                             <div>
@@ -469,7 +476,7 @@
 
                                     <div>
                                         <h3 class="testimonial-name">Zenivaldo Soares</h3>
-                                        <span class="testimonial-client">Parceiro</span>
+                                        <p class="testimonial-client">Parceiro</p>
                                     </div>
                                 </div>
                             <div>
@@ -531,6 +538,10 @@
                 </div>
             </aside>
         </section>
+
+        <div class="scroll-up-btn">
+            <i class="uil uil-angle-up"></i>
+        </div>
 
     </main>
 
@@ -611,5 +622,6 @@
             <p>Copyright 2023 &#169 Smart Promotora. All Right Reserved</p>
         </div>
     </footer>
+
 </body>
 </html>
