@@ -337,29 +337,42 @@ nav:hover {
     font-size: 2vw;
 }
 
-.linha-banco1,
-.linha-banco2,
-.linha-banco3 {
-    display: flex;
-    padding-left: 18%;
-    padding-right: 18%;
+.linha-banco1 {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .imagens-bancos {
     padding-bottom: var(--mb-2);
+
 }
 
 .img-bank {
     width: 10vw;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+    justify-items: center;
+}
 
+#itau {
+    width: 4.50vw;
+}
+
+#ole {
+    width: 6vw;
+}
+
+#facta {
+    width: 15vw;
 }
 
 /* ================== Seção Por que nos ==================== */
 .container-nos {
     margin: 100px auto 100px auto;
-    width: 95%;
+    width: 80%;
     height: 80%;
     background-color: var(--color-neutral-10);
     border-radius: 20px;
@@ -376,6 +389,9 @@ nav:hover {
     font-size: 1.50vw;
     text-align: center;
     color: #BFBCBC;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .child-cont {
@@ -655,16 +671,14 @@ form {
     display: flex;
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
 }
 
 .astro2 {
-    width: 60px;
-    margin-top: -25px;
+    width: 4.50vw;
+    margin-top: -15px;
 }
 
 .titulo-parceiro {
-    padding-left: 85px;
     padding-top: 10px;
     font-size: 25px;
 }
@@ -753,14 +767,14 @@ button:disabled {
 /* Botão up */
 .scroll-up-btn {
     position: fixed;
-    width: 41px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     right: 30px;
     bottom: 30px;
     text-align: center;
     line-height: 50px;
     color: #fff;
-    background: #191970;
+    background-color: #191990;
     border-radius: 6px;
     font-size: 30px;
     z-index: 9999;
@@ -768,6 +782,10 @@ button:disabled {
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
+}
+
+.scroll-up-btn:hover {
+    background-color: #195090;
 }
 
 .scroll-up-btn.show {
@@ -928,6 +946,10 @@ button:disabled {
         padding-right: 40px;
     }
 
+    .child-cont {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .services-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -990,16 +1012,16 @@ button:disabled {
     }
 
     .titulo-home {
-        font-size: 2.50rem;
+        font-size: 2.90rem;
     }
 
     .subtitulo-home {
-        font-size: 1.50rem;
+        font-size: 1.80rem;
     }
 
     .paragrafo-home {
-        width: 80%;
-        font-size: 0.5rem;
+        width: 90%;
+        font-size: 0.70rem;
     }
 
     .mais {
@@ -1009,6 +1031,10 @@ button:disabled {
     .texto1 {
         font-size: 1rem;
         display: flex;
+    }
+
+    .texto1 > span {
+        font-size: 6vw;
     }
 
     .texto2 {
@@ -1032,11 +1058,7 @@ button:disabled {
     }
 
     .conteudo1, .conteudo2, .conteudo3 {
-        padding-right: 30px;
-    }
-
-    .child-box1, .child-box2, .child-box3 {
-        padding: 10px;
+        padding-right: 20px;
     }
 
     .paragr-box {
@@ -1048,27 +1070,66 @@ button:disabled {
     }
 
     .img-bank {
-        width: 16vw;
+        width: 20vw;
+    }
+
+    #itau {
+        width: 10vw;
+    }
+
+    #ole {
+        width: 13vw;
+    }
+
+    #facta {
+        width: 25vw;
     }
 
     .imagens-bancos {
         padding-bottom: 0;
     }
 
+    .linha-banco1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .titulo-nos {
-        font-size: .5rem;
+        font-size: 1rem;
     }
 
     .paragrafo-nos {
-        font-size: .5rem;
+        font-size: .50rem;
     }
 
     .sub-title-box {
-        font-size: .46rem;
+        font-size: .90rem;
     }
 
     .paragr-box {
-        font-size: .4rem;
+        font-size: .60rem;
+    }
+
+    .child-box1 {
+        margin: 10px 0 0 0;
+    }
+
+    .child-box2 {
+        margin: 0;
+    }
+
+    .child-box3 {
+        margin: 0 0 25px 0;
+    }
+
+    .child-box1, .child-box2, .child-box3 {
+        padding: 10px;
+        width: 80%;
+    }
+
+    .child-cont {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        justify-items: center;
     }
 
     #icon-money {
