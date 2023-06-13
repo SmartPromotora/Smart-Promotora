@@ -94,7 +94,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--font-azul);
+    background-color: #120c56;
     height: 10vh;
 }
 
@@ -162,6 +162,22 @@ nav:hover {
     background-color: #ffff;
     margin: 8px;
     transition: 0.3s;
+}
+
+/* Barra de rolagem*/
+::-webkit-scrollbar {
+    width: .60rem;
+    background-color: var(--scroll-bar-color);
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-thumb-color);
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--text-color-light);
 }
 
 
@@ -448,6 +464,7 @@ nav:hover {
 
 .section-title-service {
     padding-top: 30px;
+    color: var(--font-azul);
 }
 
 .section-title-service, .section-subtitle-service {
@@ -583,6 +600,7 @@ nav:hover {
 /* ===================Feedbacks================== */
 .section-title {
     text-align: center;
+    color: var(--font-azul);
 }
 
 .section-parag {
@@ -681,6 +699,7 @@ form {
 .titulo-parceiro {
     padding-top: 10px;
     font-size: 25px;
+    color: var(--font-azul);
 }
 
 label, input, textarea, button {
@@ -1003,7 +1022,7 @@ button:disabled {
     }
 
     .logo-branco {
-        width: 80px;
+        width: 100px;
     }
 
     .box1 {
@@ -1012,7 +1031,7 @@ button:disabled {
     }
 
     .titulo-home {
-        font-size: 2.90rem;
+        font-size: 3.70rem;
     }
 
     .subtitulo-home {
@@ -1021,7 +1040,7 @@ button:disabled {
 
     .paragrafo-home {
         width: 90%;
-        font-size: 0.70rem;
+        font-size: 1rem;
     }
 
     .mais {
@@ -1039,6 +1058,10 @@ button:disabled {
 
     .texto2 {
         font-size: .70rem;
+    }
+
+    .num {
+        font-size: 1.56rem;
     }
 
     .typing {
@@ -1066,11 +1089,11 @@ button:disabled {
     }
 
     .title-bank {
-        font-size: 1rem;
+        font-size: 1.50rem;
     }
 
     .img-bank {
-        width: 20vw;
+        width: 30vw;
     }
 
     #itau {
@@ -1082,7 +1105,7 @@ button:disabled {
     }
 
     #facta {
-        width: 25vw;
+        width: 30vw;
     }
 
     .imagens-bancos {
@@ -1098,15 +1121,15 @@ button:disabled {
     }
 
     .paragrafo-nos {
-        font-size: .50rem;
+        font-size: .70rem;
     }
 
     .sub-title-box {
-        font-size: .90rem;
+        font-size: 1.2rem;
     }
 
     .paragr-box {
-        font-size: .60rem;
+        font-size: .80rem;
     }
 
     .child-box1 {
@@ -1146,6 +1169,7 @@ button:disabled {
 
     .section-title-service {
         padding-top: 0;
+        font-size: 1.5rem;
     }
 
     .testimonial-data, .testimonial-header {
