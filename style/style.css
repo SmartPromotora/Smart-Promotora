@@ -68,6 +68,9 @@
     font-family: var(--body-font);
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /*============== HEADER ===================== */
 
@@ -146,7 +149,7 @@ nav:hover {
 }
 
 #sejanp {
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 12px;
     padding: 5px;
 }
@@ -234,7 +237,6 @@ nav:hover {
 .container-home {
     display: flex;
     justify-content: space-between;
-    /* background-image: url(../img/background.jpg); */
     background: linear-gradient(0, #120c56, #000000);
     overflow: hidden;
     background-size: cover;
@@ -427,11 +429,11 @@ nav:hover {
 }
 
 .child-box1 {
-    margin-left: 10px;
+    margin-left: 22px;
 }
 
 .child-box3 {
-    margin-right: 10px;
+    margin-right: 22px;
 }
 
 #icon-money {
@@ -453,7 +455,7 @@ nav:hover {
 
 .paragr-box {
     font-size: 1vw;
-    padding-bottom: 35px;
+    padding-bottom: 12px;
 }
 
 /* ================== Nossos Produtos =================== */
@@ -758,8 +760,13 @@ button:disabled {
     text-align: center;
 }
 
+.p-success, .p-error {
+    text-align: center;
+    color: var(--color-neutral-10);
+}
+
 .success {
-    color: greenyellow;
+    color: #120c56;
 }
 
 .error {
@@ -871,6 +878,11 @@ button:disabled {
     width: 150px;
 }
 
+.paragr-footer {
+    color: var(--color-neutral-40);
+    margin-left: -30px;
+}
+
 .footer-list {
     display: flex;
     flex-direction: column;
@@ -918,11 +930,11 @@ button:disabled {
     .nav-list {
         margin-right: 0;
         position: absolute;
-        top: 5.5vh;
+        top: 6.5vh;
         right: 0;
         width: 50vw;
         height: 92vh;
-        background-color: var(--font-azul);
+        background-color: #120c56;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
@@ -966,7 +978,7 @@ button:disabled {
     }
 
     .child-cont {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .services-container {
@@ -1209,6 +1221,10 @@ button:disabled {
 
     .astro2 {
         width: 50px;
+    }
+
+    .paragr-footer {
+        margin-left: 0;
     }
 
     .footer-content {
