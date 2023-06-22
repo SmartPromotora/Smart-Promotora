@@ -2,6 +2,12 @@
 
 /*========== Google Fontes ==========*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@font-face {
+    font-family: "Stereofunk";
+    src: url("../fonts/Stereofunk.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*========== Variaveis ==========*/
 :root {
@@ -248,6 +254,7 @@ nav:hover {
     z-index: 20;
     margin: 100px 0px 0px -50px;
     width: 50%;
+    text-shadow:  1px 1px 2px #000000;
 }
 
 .box2 {
@@ -255,15 +262,21 @@ nav:hover {
     display: flex;
 }
 
-.titulo-home {
-    padding-bottom: 15px;
+.titulo-home, .titulo-home2 {
     color: var(--font-azul);
-    text-shadow:  0 2px 4px rgba(0, 0, 0, 1);
-    font-size: 6vw;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.445);
+    font-size: 5.5vw;
+    font-family: 'Stereofunk';
+}
+
+.titulo-home2 {
+    font-family: var(--body-font);
+    font-size: 4.70vw;
+    padding-bottom: 15px;
 }
 
 .subtitulo-home {
-    padding-bottom: 15px;
+    padding-bottom: 50px;
     color: var(--font-branca);
     font-size: 2vw;
 }
@@ -540,6 +553,10 @@ nav:hover {
 .button-flex {
     display: inline-flex;
     align-items: center;
+}
+
+.p-services {
+    padding: 4px 0 7px 0;
 }
 
 .services-modal {
@@ -1044,11 +1061,16 @@ button:disabled {
     }
 
     .titulo-home {
-        font-size: 3.70rem;
+        font-size: 2.8rem;
+    }
+
+    .titulo-home2 {
+        font-size: 2.3rem;
     }
 
     .subtitulo-home {
         font-size: 1.80rem;
+        padding-bottom: 0px;
     }
 
     .paragrafo-home {
@@ -1056,8 +1078,12 @@ button:disabled {
         font-size: 1rem;
     }
 
+    .box-valores {
+        display: block;
+    }
+
     .mais {
-        font-size: 1.3rem;
+        font-size: 2.5rem;
     }
 
     .texto1 {
@@ -1066,11 +1092,11 @@ button:disabled {
     }
 
     .texto1 > span {
-        font-size: 6vw;
+        font-size: 10vw;
     }
 
     .texto2 {
-        font-size: .70rem;
+        font-size: 1.3rem;
     }
 
     .num {
