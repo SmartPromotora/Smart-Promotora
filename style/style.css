@@ -404,7 +404,7 @@ nav:hover {
 /* ================== Seção Por que nos ==================== */
 .container-nos {
     margin: 100px auto 100px auto;
-    width: 80%;
+    width: 88%;
     height: 80%;
     background-color: var(--color-neutral-10);
     border-radius: 20px;
@@ -645,19 +645,19 @@ nav:hover {
 }
 
 .testimonial-img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     margin-right: var(--mb-0-75);
 }
 
 .testimonial-name {
-    font-size: var(--h3-font-size);
+    font-size: 1.4rem;
     font-weight: var(--font-medium);
 }
 
 .testimonial-client {
-    font-size: var(--small-font-size);
+    font-size: 1rem;
     color: var(--text-color-light);
 }
 
@@ -729,7 +729,7 @@ label, input, textarea, button {
 input {
     width: 95%;
     font: inherit;
-    padding: .30rem;
+    padding: .50rem;
     font-weight: 700;
     margin-bottom: 1rem;
     color: black;
@@ -748,6 +748,7 @@ textarea:hover, textarea:focus {
 
 label {
     margin-bottom: 0.5rem;
+    font-size: 1rem;
     color: #84868f;
 }
 
@@ -761,6 +762,7 @@ button {
     transition: 0.3s;
     width: 98%;
     padding: 1rem;
+    font-size: 1rem;
 }
 
 
@@ -1056,20 +1058,20 @@ button:disabled {
     }
 
     .box1 {
-        margin-top: 80px;
+        margin-top: 120px;
         width: 100%;
     }
 
     .titulo-home {
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
 
     .titulo-home2 {
-        font-size: 2.3rem;
+        font-size: 2.5rem;
     }
 
     .subtitulo-home {
-        font-size: 1.80rem;
+        font-size: 1.85rem;
         padding-bottom: 0px;
     }
 
@@ -1083,7 +1085,7 @@ button:disabled {
     }
 
     .mais {
-        font-size: 2.5rem;
+        font-size: 2.6rem;
     }
 
     .texto1 {
@@ -1144,7 +1146,7 @@ button:disabled {
     }
 
     #facta {
-        width: 30vw;
+        width: 35vw;
     }
 
     .imagens-bancos {
@@ -1160,7 +1162,7 @@ button:disabled {
     }
 
     .paragrafo-nos {
-        font-size: .70rem;
+        font-size: .80rem;
     }
 
     .sub-title-box {
@@ -1234,7 +1236,7 @@ button:disabled {
     }
 
     .services-content {
-        width: 150px;
+        width: 170px;
     }
 
     .formulario {
@@ -1243,7 +1245,7 @@ button:disabled {
     }
 
     .titulo-parceiro {
-        font-size: 19px;
+        font-size: 21px;
     }
 
     .astro2 {
