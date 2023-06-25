@@ -340,6 +340,7 @@ nav:hover {
     margin-top: 100px;
     transform: translatey(0px);
     animation: float 5s ease-in-out infinite;
+    pointer-events: none;
 }
 
 @keyframes float {
@@ -357,6 +358,7 @@ nav:hover {
 }
 
 /* ========== Seção Bancos Autorizados ============ */
+
 .secao-bancos-autorizados {
  background-color: white;
 }
@@ -1063,15 +1065,15 @@ button:disabled {
     }
 
     .titulo-home {
-        font-size: 3rem;
+        font-size: 3.4rem;
     }
 
     .titulo-home2 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .subtitulo-home {
-        font-size: 1.85rem;
+        font-size: 2.3rem;
         padding-bottom: 0px;
     }
 
@@ -1085,7 +1087,7 @@ button:disabled {
     }
 
     .mais {
-        font-size: 2.6rem;
+        font-size: 3rem;
     }
 
     .texto1 {
