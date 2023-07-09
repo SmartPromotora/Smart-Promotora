@@ -681,8 +681,6 @@ nav:hover {
     bottom: 0;
 }
 
-
-
 /* ================= Formulário ================= */
 
 .form-e-api {
@@ -698,7 +696,7 @@ nav:hover {
 
 form {
     width: 100%;
-    max-width: 75%;
+    max-width: 85%;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
@@ -731,7 +729,7 @@ label, input, textarea, button {
 input {
     width: 95%;
     font: inherit;
-    padding: .50rem;
+    padding: 0.20rem;
     font-weight: 700;
     margin-bottom: 1rem;
     color: black;
@@ -1065,7 +1063,7 @@ button:disabled {
     }
 
     .titulo-home {
-        font-size: 3.4rem;
+        font-size: 2.9rem;
     }
 
     .titulo-home2 {
@@ -1073,7 +1071,7 @@ button:disabled {
     }
 
     .subtitulo-home {
-        font-size: 2.3rem;
+        font-size: 2.0rem;
         padding-bottom: 0px;
     }
 
