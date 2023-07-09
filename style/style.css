@@ -729,7 +729,7 @@ label, input, textarea, button {
 input {
     width: 95%;
     font: inherit;
-    padding: 0.20rem;
+    padding: 0.30rem;
     font-weight: 700;
     margin-bottom: 1rem;
     color: black;
@@ -1063,15 +1063,15 @@ button:disabled {
     }
 
     .titulo-home {
-        font-size: 2.9rem;
+        font-size: 2.8rem;
     }
 
     .titulo-home2 {
-        font-size: 2.9rem;
+        font-size: 2.7rem;
     }
 
     .subtitulo-home {
-        font-size: 2.0rem;
+        font-size: 1.9rem;
         padding-bottom: 0px;
     }
 
@@ -1236,7 +1236,7 @@ button:disabled {
     }
 
     .services-content {
-        width: 155px;
+        width: 145px;
     }
 
     .formulario {
@@ -1255,7 +1255,7 @@ button:disabled {
     .paragr-footer {
         margin-left: 0;
     }
-
+    
     .footer-content {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
