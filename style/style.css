@@ -951,8 +951,8 @@ button:disabled {
         margin-right: 0;
         position: absolute;
         top: 6.5vh;
-        right: 0;
-        width: 50vw;
+        right: 5px;
+        width: 60vw;
         height: 92vh;
         background-color: #120c56;
         flex-direction: column;
@@ -1067,7 +1067,7 @@ button:disabled {
     }
 
     .titulo-home2 {
-        font-size: 3rem;
+        font-size: 2.9rem;
     }
 
     .subtitulo-home {
@@ -1236,7 +1236,7 @@ button:disabled {
     }
 
     .services-content {
-        width: 170px;
+        width: 155px;
     }
 
     .formulario {
