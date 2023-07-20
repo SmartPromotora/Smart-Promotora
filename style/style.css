@@ -819,7 +819,7 @@ button:disabled {
     right: 30px;
     bottom: 30px;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     color: #fff;
     background-color: #191990;
     border-radius: 6px;
@@ -838,7 +838,7 @@ button:disabled {
 .scroll-up-btn.show {
     opacity: 1;
     pointer-events: auto;
-    bottom: 30px;
+    bottom: 70px;
 }
 
 .uil-angle-up {
@@ -934,6 +934,12 @@ button:disabled {
     font-size: 0.75rem;
     padding: 1.5rem;
     font-weight: 100;
+}
+
+.logoWS {
+    position: absolute;
+    width: 28px;
+    margin-left: 33.3vw;
 }
 
 /* ===================== Responsividade ======================== */
@@ -1260,5 +1266,9 @@ button:disabled {
     .footer-content {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
+    }
+
+    .logoWS {
+        display: none;
     }
 }
