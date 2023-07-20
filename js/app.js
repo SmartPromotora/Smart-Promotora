@@ -44,7 +44,6 @@ class MobileNavbar {
   );
   mobileNavbar.init();
 
-
 /*========== Animações ==========*/
 
 // Animação crescente 
@@ -134,10 +133,7 @@ let swiperTestimonial = new Swiper('.testimonial-container', {
             slidesPerView: 2,
         }
     }
-
 }) 
-
-
 
 // Formulário 
 
