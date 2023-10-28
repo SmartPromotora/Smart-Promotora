@@ -7,6 +7,11 @@
     src: url("../fonts/Stereofunk.ttf") format(truetype);
     font-weight: normal;
     font-style: normal;
+
+    font-family: "aBlackLives";
+    src: url("../fonts/aBlackLives.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*========== Variaveis ==========*/
@@ -252,9 +257,19 @@ nav:hover {
 
 .box1 {
     z-index: 20;
-    margin: 100px 0px 0px -50px;
+    margin: 70px 0px 0px -50px;
     width: 50%;
     text-shadow:  1px 1px 2px #000000;
+}
+
+.elemento-home {
+    z-index: 5;
+    background-color: rgba( 999, 999, 999, .70);
+    position: absolute;
+    padding: 20px;
+    width: 780px;
+    height: 230px;
+    border-radius: 0px 0px 200px 0px;
 }
 
 .box2 {
@@ -266,17 +281,18 @@ nav:hover {
     color: var(--font-azul);
     text-shadow: 2px 2px rgba(0, 0, 0, 0.445);
     font-size: 5.5vw;
-    font-family: 'Stereofunk';
+    font-family: 'aBlackLives';
 }
 
 .titulo-home2 {
     font-family: var(--body-font);
     font-size: 4.70vw;
-    padding-bottom: 15px;
+    padding-bottom: 40px;
 }
 
 .subtitulo-home {
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 35px;
     color: var(--font-branca);
     font-size: 2vw;
 }
@@ -1075,6 +1091,12 @@ button:disabled {
 
     .titulo-home2 {
         font-size: 2.7rem;
+    }
+
+    .elemento-home {
+        width: 100%;
+        border-radius: 0;
+        padding: 0 0 35px 0;
     }
 
     .subtitulo-home {
